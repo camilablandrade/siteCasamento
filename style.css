@@ -1,0 +1,140 @@
+header .navbar{
+    height: 100px;
+}
+
+header .navbar-brand > h1{
+    font-size: 3em !important;
+    color: #f2f2f1;
+    text-shadow: 2px 2px #C5BC77;
+    margin-left: 10px;
+}
+
+.offcanvas-header h5{
+    font-size: 3em !important;
+    color: #f2f2f1;
+    text-shadow: 2px 2px #C5BC77;
+    margin-left: 10px;
+}
+
+header .nav-link{
+    margin-right: 10px;
+    font-size: 16pt;
+    color: #de8b99 !important;
+    margin-left: 10px;
+}
+
+header .bg-light{
+    
+    border-bottom: 1px solid #c5bc77 !important;
+}
+
+header .navbar-toggler{
+    border: 1px solid #c5bc77 !important;
+}
+
+main .carousel-item{
+    height: 48vw;
+    
+}
+
+main .titnoivos, .titcasamento, .presenca h1{
+    text-align: center;
+    text-shadow: 2px 2px #f5f2f1;
+    color: #b94f4e;
+    margin: 50px 0px;
+}
+
+.imgnoivos, .imgcasamento{
+    display: flex;
+    margin: 5px auto !important;
+    height: 40vw !important;
+    border-radius: 15px !important;
+}
+
+.lh-base{
+    font-family: 'zen loop';
+    text-align: justify;
+    margin: 75px 100px;
+}
+
+.fs-3{
+    font-family: 'zen loop';
+    color: #a09859;
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+
+.presenca p, .contato p{
+    font-family: 'zen loop';
+    font-size: 20pt;
+    color: #a09859;
+    text-align: center;
+
+
+}
+
+form{
+    text-align: center;
+}
+
+form input{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14pt;
+    width: 40vw;
+    height: 36px;
+    border: 1px solid #b94f4e;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+.vou{
+    margin: 50px 4px;
+    border: none;
+    border-radius: 50px;
+    background-color: #b7b079;
+    color: #F5F2E1;
+    width: 90px;
+    height: 40px;
+}
+.vou:hover{
+    background-color: transparent;
+    color: #b7b079;
+}
+.nv{
+    margin: 50px 4px;
+    border: none;
+    border-radius: 50px;
+    background-color: #de8b99;
+    color: #F5F2E1;
+    width: 90px;
+    height: 40px;
+}
+.nv:hover{
+    background-color: transparent;
+    color: #de8b99;
+}
+
+.contato h1{
+text-align: center;
+    text-shadow: 2px 2px #f5f2f1;
+    color: #b94f4e;
+    margin-top: 100px;
+}
+.tel{
+    text-align: center;
+}
+
+.tel li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.tel li>a{
+    text-decoration: none;
+}
+.tel img{
+    width: 52px;
+}

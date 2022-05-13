@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Convite de Casamento </title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Fontes Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Fredericka+the+Great&family=Great+Vibes&family=Libre+Bodoni&family=Petit+Formal+Script&family=Shadows+Into+Light&family=Tenali+Ramakrishna&family=Zen+Loop&display=swap" rel="stylesheet">
+
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </head>
+
+    <body class="h-100 d-flex flex-column">
+      <header class="sticky-top">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light p-3">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"> <h1> MP </h1> </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> MP </h5>
+
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="noivos.html"> Milena & Pietro </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="casamento.html"> Casamento </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="resposta.html"> Confirmação </a>
+                  </li>
+
+                  
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+       <main>
+           <div class="presenca">
+                <h1> Confirmação de Presença </h1>
+                <p> Faça parte da nossa história. Confirme sua presença. </p>
+
+                <form>
+                    <input type="text"
+                    id="nome"
+                    placeholder="Digite o seu nome"
+                    required> <br>
+    
+                    <input type="tel"
+                    id="telefone"
+                    placeholder="(DDD) 99999-9999"> <br>
+                    
+                    <button class="vou" type="submit"> Eu vou! </button>
+                    <button class="nv" type="submit"> Não vou! </button>                
+                </form>
+            </div>
+
+            <div class="contato">
+                <h1> Contato </h1>
+                <p> Caso tenham dúvidas, nosso contato está aqui</p>
+            </div>
+            
+            <ul class="tel">
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=5599999999988" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1184/1184530.png?w=1060" alt="noivo">
+
+                    </a>
+                </li>
+                <li>
+                    <a href="https://api.whatsapp.com/send?phone=5599999999999" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1184/1184533.png?w=1060" alt="noiva">
+                    </a>
+                </li>
+            </ul>          
+       </main>
+
+        <footer class="footer bg-light p-2 mt-auto flex-shrink-0">
+            <div class="d-flex justify-content-center align-items-center">
+              <span class="fst-italic">
+                Projeto desenvolvido por Camila Andrade no curso de Fronten - Cel.lep
+              </span>
+            </div>
+            
+          </footer>
+        
+    </body>
+</html>
